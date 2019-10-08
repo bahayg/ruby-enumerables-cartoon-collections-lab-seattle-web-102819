@@ -12,7 +12,7 @@ end
 
 def find_the_cheese(strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  strings.include {|cheese| 
+  strings.include(cheese_types) {|cheese| 
 end
 
 
